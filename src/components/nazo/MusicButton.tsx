@@ -24,7 +24,7 @@ export function MusicButton() {
 
   return (
     <>
-      <audio ref={audio} src="/assets/music.mp3" loop preload="none" onError={() => setMissing(true)} />
+      <audio ref={audio} src={`${import.meta.env.BASE_URL}assets/music.mp3`} loop preload="none" onError={() => setMissing(true)} />
       <button
         onClick={toggle}
         aria-pressed={playing}
