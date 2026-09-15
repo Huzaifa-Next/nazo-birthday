@@ -3,10 +3,10 @@ import { useReveal } from "@/hooks/use-reveal";
 
 /* ── EDIT ME: swap the files in public/assets/ and the captions ── */
 const PHOTOS = [
-  { src: "/assets/nazo-1.jpeg", caption: "One of my favorite memories. Miya Biwi. 😋", tilt: "-2.5deg", span: "sm:col-span-7 sm:row-span-2" },
-  { src: "/assets/nazo-2.jpeg", caption: "Look at you just the prettiest human being ever. 😘", tilt: "2deg", span: "sm:col-span-5" },
-  { src: "/assets/nazo-3.jpeg", caption: "I'd choose this moment again. 🙈", tilt: "-1.5deg", span: "sm:col-span-5" },
-  { src: "/assets/nazo-4.jpeg", caption: "Apko meri yeh li v pictures kbhi achi nhi lagi lekin memory toh yeh bhi bht pyari hai. 💕", tilt: "1.8deg", span: "sm:col-span-12" },
+  { src: `${import.meta.env.BASE_URL}assets/nazo-1.jpeg`, caption: "One of my favorite memories. Miya Biwi. 😋", tilt: "-2.5deg", span: "sm:col-span-7 sm:row-span-2" },
+  { src: `${import.meta.env.BASE_URL}assets/nazo-2.jpeg`, caption: "Look at you just the prettiest human being ever. 😘", tilt: "2deg", span: "sm:col-span-5" },
+  { src: `${import.meta.env.BASE_URL}assets/nazo-3.jpeg`, caption: "I'd choose this moment again. 🙈", tilt: "-1.5deg", span: "sm:col-span-5" },
+  { src: `${import.meta.env.BASE_URL}assets/nazo-4.jpeg`, caption: "Apko meri yeh li v pictures kbhi achi nhi lagi lekin memory toh yeh bhi bht pyari hai. 💕", tilt: "1.8deg", span: "sm:col-span-12" },
 ];
 /* ──────────────────────────────────────────────────────────────── */
 
